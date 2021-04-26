@@ -2,13 +2,20 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.pub {
+  height: 100vmin;
+  pointer-events: none;
+}
+.src {
+  height: 100vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .pub {
+    animation: App-logo-spin infinite 20s linear;
+  }
+  .src {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -36,3 +43,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.title{
+  font-weight:800;
+  font-size:80px;
+  font-family: sans-serif;
+
+
+}
+.red{
+  color:red;
+
+}
+
+
